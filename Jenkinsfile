@@ -3,7 +3,7 @@ node { /// <1> -  allocates an executor and workspace in the Jenkins environment
          
          echo 'Builded!'
 
-         //sh 'git pull origin master'
+         sh 'git pull origin master'
 
          //sh npm install
 
