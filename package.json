@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "lint": "lint .;exit 0",
+    "lint": "eslint .;exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
