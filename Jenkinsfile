@@ -9,7 +9,7 @@ node { /// <1> -  allocates an executor and workspace in the Jenkins environment
 
     }
     stage('Test') {
-        bat 'eslint test.js'
+        bat 'npm run lint'
 
 
         //sh echo "TEST!"
