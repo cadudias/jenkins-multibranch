@@ -1,14 +1,14 @@
 node { /// <1> -  allocates an executor and workspace in the Jenkins environment.
     stage('Checkout') { // <2> -  describes distinct parts of the Pipeline for better visualization of progress/status.
          
-         echo "Builded!"
+         sh echo "Builded!"
 
-         git pull origin master
+         //sh git pull origin master
 
-         npm install
+         //sh npm install
 
     }
     stage('Test') {
-        echo "TEST!"
+        //sh echo "TEST!"
     }
 }
