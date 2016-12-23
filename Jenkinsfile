@@ -5,10 +5,13 @@ node { /// <1> -  allocates an executor and workspace in the Jenkins environment
 
          bat 'git pull origin master'
 
-         //sh npm install
+         bat npm install
 
     }
     stage('Test') {
+        // lint
+        
+
         //sh echo "TEST!"
     }
 }
