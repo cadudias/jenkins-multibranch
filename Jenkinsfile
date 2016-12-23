@@ -10,7 +10,7 @@ node { /// <1> -  allocates an executor and workspace in the Jenkins environment
     }
     stage('Test') {
         bat 'npm run lint'
-
+        
 
         //sh echo "TEST!"
     }
