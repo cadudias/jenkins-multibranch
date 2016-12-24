@@ -1,0 +1,8 @@
+
+E:\laragon\www\jenkins-multibranch\test.js
+  1:5   error  'test' is assigned a value but never used  no-unused-vars
+  1:12  error  Strings must use singlequote               quotes
+  1:18  error  Extra semicolon                            semi
+
+✖ 3 problems (3 errors, 0 warnings)
+
