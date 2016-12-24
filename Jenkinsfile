@@ -10,8 +10,5 @@ node { /// <1> -  allocates an executor and workspace in the Jenkins environment
     }
     stage('Test') {
         bat 'npm run --silent lint > TEST_RESULTS/eslint.xml'
-        
-
-        //sh echo "TEST!"
     }
 }
