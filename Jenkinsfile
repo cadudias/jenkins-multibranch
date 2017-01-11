@@ -11,6 +11,7 @@ node {
         // checkout code from source control - 
         // scm is a special variable which instructs the checkout step to clone the specific 
         // revision which triggered this Pipeline run
+        
         checkout scm
 
         bat 'npm install'
