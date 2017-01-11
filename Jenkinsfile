@@ -20,7 +20,7 @@ node {
         bat 'npm -v'
 
         echo 'jasmine-node version:'
-        bat 'jasmine-node -version'
+        bat 'jasmine-node --version'
 
         //bat 'npm install jasmine-node -g'
         //bat 'npm run test'
