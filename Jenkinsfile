@@ -8,6 +8,8 @@ node {
 
          //bat 'npm install'
 
+        checkout scm
+
         echo 'Builded!'
 
     }
