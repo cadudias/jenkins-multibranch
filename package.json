@@ -4,10 +4,13 @@
   "description": "\"# sample-job\" \r \"# jenkins-multibranch\"",
   "main": ".eslintrc.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "mocha": "^3.2.0"
+  },
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-node ."
   },
   "repository": {
     "type": "git",
