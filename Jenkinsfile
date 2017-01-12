@@ -25,6 +25,7 @@ node {
         //bat 'npm install jasmine-node -g'
         //bat 'npm run test'
 
+
         
         echo 'Builded!'
 
